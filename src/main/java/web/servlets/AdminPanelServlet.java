@@ -26,7 +26,6 @@ public class AdminPanelServlet extends HttpServlet {
             try {
                 new DummyRegistrationRepository().updatePremiumStatus(loginList, checkedList);
             } catch (SQLException e) {
-                // TODO Auto-generated catch block
                 e.printStackTrace();
             }
         }
